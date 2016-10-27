@@ -26,7 +26,7 @@ public class QUIZ3 {
         
         // get obama to drop things
         int loop = 0;
-        
+       
         while(loop < 4){
         while(obama.getAvenue()!= 6){ 
             obama.putThing();
