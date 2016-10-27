@@ -27,14 +27,18 @@ public class QUIZ3 {
         // get obama to drop things
         int loop = 0;
        
+        // make obama repeat the placing of things in rows 4 times 
         while(loop < 4){
+            // get obama to place down things until he reaches avenue 6
         while(obama.getAvenue()!= 6){ 
             obama.putThing();
             obama.move();
+            // get him to turn around when avenue 6 is reached 
             if(obama.getAvenue()== 6){
                 obama.turnAround();
             }
         }
+        // get obama to move back to avenue 1 and get him to turn left, move and turn left again 
         while(obama.getAvenue()!= 1){
             obama.move();
             if(obama.getAvenue()== 1){
@@ -43,6 +47,7 @@ public class QUIZ3 {
                 obama.turnLeft();
             }
         }
+        
         loop = loop + 1;
         }   
     }
