@@ -55,6 +55,7 @@ public class Quiz3 {
             if (dino.countThingsInBackpack() == 0) {
                 // break if this is true
                 break;
+
             }
         }
     }
