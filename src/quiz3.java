@@ -41,6 +41,7 @@ public class quiz3 {
            bob.turnLeft();
         }
         }
+        //if facing difrent directions
         if (bob.getDirection() == Direction.WEST){
             bob.putThing();
             bob.move();
@@ -52,6 +53,7 @@ public class quiz3 {
                 bob.turnLeft();
             }
         }
+        //so he doesn't die at the end
         if (bob.getStreet()==5){
         
         break;
