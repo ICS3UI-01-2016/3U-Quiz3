@@ -26,12 +26,14 @@ public class Quiz3 {
         //Label jim
         jim.setLabel("Jim");
         jim.setColor(Color.blue);
+        //for loop for how many rows need to be done
         for (int plot = 0; plot < 4; plot++) {
+            //for loop used during each row
             for (int line = 0; line < 5; line++) {
                 jim.putThing();
                 jim.move();
             }
-            //Used to move up a street
+            //Used to move to the next row
             jim.turnAround();
             jim.move(5);
             jim.turnLeft();
