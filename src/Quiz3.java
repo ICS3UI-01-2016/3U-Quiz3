@@ -7,7 +7,6 @@ import becker.robots.Robot;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author baayl3669
@@ -23,7 +22,7 @@ public class Quiz3 {
 
         // make robot that plants the seeds
         Robot karel = new Robot(kw, 1, 1, Direction.EAST, 20);
-        
+
 
         // make robot move while planting the seeds
         for (int row = 0; row < 4; row = row + 1) {
@@ -42,7 +41,7 @@ public class Quiz3 {
                 turn = turn + 1;
                 karel.move();
             }
-            
+
             // make robot move to (5,1) after he finishes planting 20 seeds
             karel.turnLeft();
             karel.move();
